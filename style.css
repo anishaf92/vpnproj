@@ -1,0 +1,180 @@
+*{
+        
+    font-family: 'Lucida Sans';
+    
+}
+.intro{
+position: absolute;
+width: 555px;
+height: 140px;
+
+font-family:'Lucida Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 70px;
+overflow-wrap:break-word;
+color: #0B132A;
+}
+
+
+.featintro{
+position: absolute;
+width: 383.41px;
+height: 100px;
+
+
+font-family: 'Lucida Sans';
+font-weight: 400;
+font-size: 35px;
+line-height: 50px;
+
+
+color: #0B132A;
+}
+.feat{
+position: static;
+font-weight: 200;
+font-family: 'Lucida Sans';
+
+}
+.navbar {
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 1rem 1.5rem;
+}
+
+.smalltext{
+  position: absolute;
+width: 555px;
+height: 60px;
+left: 10px;
+top: 200.77px;
+
+font-family:'Lucida Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-overflow: auto;
+}
+.signup{
+   color:red;
+   border: red;
+   padding:10px 0px 10px 0px;
+   border-color: red;
+   border-style: solid;
+   border-radius: 15px;
+   width:100px;
+   text-align: right;
+   
+}
+
+li {
+list-style: none;
+}
+
+.nav-menu {
+display: flex;
+
+}
+
+
+
+.nav-link{
+font-size: 1.0rem;
+font-weight: 400;
+color: #475569;
+}
+
+.nav-link:hover{
+color: #482ff7;
+}
+.button{
+fill:red;
+background-color: red;
+border-radius: 10px;
+color:white;
+border-color: red;
+top:350px;
+left:100px;
+position: absolute;
+}
+.icon
+{
+display: none;
+}
+.mcol{
+
+  margin-top: 20px;
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: #EEEFF2;
+}
+.featlist{
+  font-size: 14px;
+  font-family: 'Lucida Sans';
+  line-height: 30px;
+  padding: 40px;
+  
+}
+
+@media only screen and (max-width:1000px) {
+
+.logotext{
+  font-size: 10px;
+}
+.navbar {
+position: relative;
+}
+.navbar #navi{
+ display: none;
+}
+.nav-menu{
+  position: fixed;
+  top: 2rem;
+  left: -100%;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-item {
+  margin: 2.5rem 0;
+}
+
+.icon {
+  display: block;
+  cursor: pointer;
+  top:0px;
+  left:500px;
+}
+.intro{
+  font-size: 30px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  scroll-behavior: none;
+  
+}
+.smalltext{
+  font-size:15px ;
+}
+.vpnman{
+ display:none;
+}
+.mcol{
+  column-count: 3;
+  float: left;
+}
+}
